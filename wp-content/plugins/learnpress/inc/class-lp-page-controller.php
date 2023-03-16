@@ -109,7 +109,7 @@ class LP_Page_Controller {
 
 			$post_link = $course->get_item_link( $item_id );
 		}
-		// Link item course on single course (with %course_category%).
+		// Link single course (with %course_category%).
 		elseif ( LP_COURSE_CPT === $post->post_type ) {
 			$post_link = LP_Helper::handle_lp_permalink_structure( $post_link, $post );
 		}
@@ -623,7 +623,11 @@ class LP_Page_Controller {
 
 		$theme_no_load_ajax = apply_filters(
 			'lp/page/courses/themes/no_load_ajax',
-			[ 'Coaching', 'Course Builder', 'eLearningWP', 'Ivy School', 'StarKid', 'Academy LMS' ]
+			[
+				'Coaching', 'Course Builder', 'eLearningWP', 'Ivy School', 'StarKid', 'Academy LMS',
+				'Coaching Child', 'Course Builder Child', 'eLearningWP Child', 'Ivy School Child',
+				'StarKid Child', 'Academy LMS Child',
+			]
 		);
 		$theme_current      = wp_get_theme()->get( 'Name' );
 

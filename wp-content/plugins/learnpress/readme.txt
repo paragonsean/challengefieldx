@@ -5,7 +5,7 @@ Tags: elearning, education, course, lms, learning management system
 Requires at least: 5.8
 Tested up to: 6.1.1
 Requires PHP: 7.0
-Stable tag: 4.2.2.1
+Stable tag: 4.2.2.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -208,6 +208,11 @@ https://www.transifex.com/projects/p/learnpress/
 8. Add-ons of LearnPress.
 
 == Changelog ==
+
+= 4.2.2.2 (2023-03-09) =
+~ Fixed: permalink item 404 when install "YoastSeo" plugin.
+~ Fixed: error not show tab Avatar on Profile Page.
+~ Modified: rewrite rules.
 
 = 4.2.2.1 (2023-03-03) =
 ~ Fixed: error link course with '%course_category%', on screen list courses Backend.

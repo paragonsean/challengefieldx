@@ -6,7 +6,11 @@
  *
  * @package thim
  */
-?><!DOCTYPE html>
+
+
+?>
+
+<!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/WebPage" <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -18,7 +22,11 @@
 <body <?php body_class(); ?> id="thim-body">
 <?php if ( function_exists( 'wp_body_open' ) ) {
 	wp_body_open();
-} ?>
+}
+
+
+
+ ?>
 
 <?php do_action( 'thim_before_body' ); ?>
 <!-- Mobile Menu-->

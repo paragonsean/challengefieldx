@@ -15,37 +15,62 @@
 .course-review-wrapper.error .message{
     display: inline-block;
 }
-.review-stars-rated{
-    width: 70px;
-    position: relative;
-    float: left;
-}
-.review-stars-rated .review-stars.empty,
-.review-stars-rated .review-stars.filled {
-    width: 70px;
-    height: 14px;
-    font-family: dashicons;
-    font-size: 14px;
-}
-.review-stars-rated .review-stars.empty:before{
-    content: '\f154\f154\f154\f154\f154';
-    line-height: 1;
-    vertical-align: top;
-}
-.review-stars-rated .review-stars.filled:before{
-    content: '\f155\f155\f155\f155\f155';
-    line-height: 1;
-    vertical-align: top;
-    color: #f0cc05;
-}
-.review-stars-rated .review-stars.filled{
-    position: absolute;
-    top:0;
-    left: 0;
-}
+
 .course-rate {
     overflow: hidden;
 }
 .select2-container {
     width: 140px !important;
+}
+
+
+.review-stars-rated {
+	display: flex;
+	margin-bottom: 10px;
+}
+.review-stars-rated .review-star {
+	position: relative;
+	line-height: 1;
+	margin: 0 2px;
+}
+.review-stars-rated .review-star .far {
+	position: relative;
+	color: #CCC;
+}
+.review-stars-rated .review-star .fas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	color: #ffb60a;
+}
+.review-stars-rated.center {
+	justify-content: center;
+}
+
+.review-stars-rated .review-stars.empty,
+.review-stars-rated .review-stars.filled {
+	font-size: 18px;
+	color: #f2b827;
+	display: inline-block;
+	position: relative;
+}
+
+.review-stars-rated .review-stars.empty:before,
+.review-stars-rated .review-stars.filled:before {
+	line-height: 1;
+	content: "☆";
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.review-stars-rated .review-stars.empty:before {
+	color: #DDD;
+	content: "☆";
+}
+
+.review-stars-rated .review-stars.filled {
+	position: absolute;
+	top: 0;
+	left: 0;
 }

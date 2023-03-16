@@ -64,6 +64,8 @@
 
 .review-stars-rated {
   display: flex;
+	margin-bottom: 10px;
+	position: relative;
 }
 .review-stars-rated .review-star {
   position: relative;
@@ -85,6 +87,37 @@
   justify-content: center;
 }
 
+.review-stars-rated .review-stars.empty,
+.review-stars-rated .review-stars.filled {
+	font-size: 18px;
+	color: #f2b827;
+	display: inline-block;
+	position: relative;
+}
+
+.review-stars-rated .review-stars.empty:before,
+.review-stars-rated .review-stars.filled:before {
+	line-height: 1;
+	content: "☆";
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.review-stars-rated .review-stars.empty:before {
+	color: #DDD;
+	content: "☆";
+}
+
+.review-stars-rated .review-stars.filled {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.learn-press-courses .course-review .review-stars-rated .review-stars {
+	font-size: 14px;
+}
+
 .course-review-wrapper {
   display: none;
   position: fixed;
@@ -92,8 +125,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 99999;
+  z-index: 999999;
   text-align: center;
+	background: #00000085;
+}
+
+.course-review-wrapper.active{
+  display: block;
 }
 
 .review-overlay {
@@ -112,18 +150,19 @@
   position: relative;
   width: 80%;
   max-width: 600px;
-  margin-top: 50px;
+  margin-top: 10%;
   display: inline-block;
   text-align: left;
 }
 
 .review-form .close {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 .review-form h3 {
-  font-size: 16px;
-  margin: 0 0 20px;
+  font-size: 20px;
+  margin: 0 0 15px;
+  font-weight: 600;
 }
 
 .review-form h3 .close {
@@ -218,6 +257,10 @@
   display: none;
 }
 
+.review-form button.submit-review.loading:before {
+  margin-right:10px;
+}
+
 .course-review-wrapper.submitting .ajaxload,
 .course-review-wrapper.error .message {
   display: inline-block;
@@ -241,44 +284,6 @@
   top: 0;
   width: 100%;
   opacity: 0.3;
-}
-
-.review-stars-rated {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.review-stars-rated .review-stars.empty,
-.review-stars-rated .review-stars.filled {
-  font-size: 18px;
-  color: #f2b827;
-  display: inline-block;
-  position: relative;
-}
-
-.review-stars-rated .review-stars.empty:before,
-.review-stars-rated .review-stars.filled:before {
-  line-height: 1;
-  content: "☆";
-  vertical-align: top;
-  white-space: nowrap;
-}
-
-.review-stars-rated .review-stars.empty:before {
-  color: #DDD;
-  content: "☆";
-}
-
-/*.review-stars-rated .review-stars.filled:before {*/
-/*content: '\f155';*/
-/*line-height: 1;*/
-/*vertical-align: top;*/
-/*white-space: nowrap;*/
-/*}*/
-.review-stars-rated .review-stars.filled {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .course-rate {
@@ -344,22 +349,73 @@
   margin: 9px 0 15px;
 }
 
+
 @media (max-width: 600px) {
   .course-reviews-list li .review-text, .course-reviews-list-shortcode li .review-text {
     width: 100%;
     float: left;
   }
 }
-.loading {
+/* .loading {
   display: none;
-}
+} */
 
 .learn-press-courses .course-review {
   float: left;
 }
 
-.learn-press-courses .course-review .review-stars-rated .review-stars {
-  font-size: 14px;
+/*# sourceMappingURL=course-review.css.map */
+
+
+/* custom style minhpd */
+.learnpress-course-review li::marker{
+  content: "";
 }
 
-/*# sourceMappingURL=course-review.css.map */
+.learnpress-course-review .course-reviews-list {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+.learnpress-course-review .course-reviews-list li {
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
+.learnpress-course-review  .course-reviews-list li .review-author {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+.learnpress-course-review .course-reviews-list li .review-author-info {
+  float: left;
+}
+.learnpress-course-review .course-reviews-list li .review-author-info .course-reviews-list-shortcode li .review-author-info {
+  float: left;
+}
+.learnpress-course-review .course-reviews-list li .review-text {
+  float: right;
+  width: -webkit-calc(100% - 120px);
+}
+.learnpress-course-review .course-reviews-list li .user-name {
+  margin: 5px;
+}
+.learnpress-course-review .course-reviews-list li .review-title {
+  clear: both;
+  margin: 9px 0 15px;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 25px;
+}
+
+@media (max-width: 600px) {
+  .learnpress-course-review .course-reviews-list li .review-text{
+    float:left;
+    width:100%;
+  }
+}
+
+/* end custom style minhpd */

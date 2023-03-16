@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<gnulessergeneralpubliclicense><![CDATA[       Version 2.1, February 1999]]></gnulessergeneralpubliclicense>
+	</node>
+	<node>
+		<undefined0><![CDATA[ Copyright (C) 1991, 1999 Free Software Foundation, Inc.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[ Everyone is permitted to copy and distribute verbatim copies]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[ of this license document, but changing it is not allowed.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[[This is the first released version of the Lesser GPL.  It also counts]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[ as the successor of the GNU Library Public License, version 2, hence]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[ the version number 2.1.]]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<gnulessergeneralpubliclicense><![CDATA[]]></gnulessergeneralpubliclicense>
+	</node>
+	<node>
+		<undefined0><![CDATA[  The licenses for most software are designed to take away your]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[freedom to share and change it.  By contrast, the GNU General Public]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Licenses are intended to guarantee your freedom to share and change]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[free software--to make sure the software is free for all its users.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  This license, the Lesser General Public License, applies to some]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[specially designated software packages--typically libraries--of the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Free Software Foundation and other authors who decide to use it.  You]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[can use it too, but we suggest you first think carefully about whether]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[this license or the ordinary General Public License is the better]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[strategy to use in any particular case, based on the explanations below.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  When we speak of free software, we are referring to freedom of use,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[not price.  Our General Public Licenses are designed to make sure that]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[you have the freedom to distribute copies of free software (and charge]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[for this service if you wish); that you receive source code or can get]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[it if you want it; that you can change the software and use pieces of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[it in new free programs; and that you are informed that you can do]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[these things.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  To protect your rights, we need to make restrictions that forbid]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[distributors to deny you these rights or to ask you to surrender these]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[rights.  These restrictions translate to certain responsibilities for]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[you if you distribute copies of the library or if you modify it.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  For example, if you distribute copies of the library, whether gratis]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[or for a fee, you must give the recipients all the rights that we gave]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[you.  You must make sure that they, too, receive or can get the source]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[code.  If you link other code with the library, you must provide]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[complete object files to the recipients, so that they can relink them]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[with the library after making changes to the library and recompiling]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[it.  And you must show them these terms so they know their rights.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  We protect your rights with a two-step method: (1) we copyright the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[library, and (2) we offer you this license, which gives you legal]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[permission to copy, distribute and/or modify the library.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  To protect each distributor, we want to make it very clear that]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[there is no warranty for the free library.  Also, if the library is]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[modified by someone else and passed on, the recipients should know]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[that what they have is not the original version, so that the original]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[author's reputation will not be affected by problems that might be]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[introduced by others.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  Finally, software patents pose a constant threat to the existence of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[any free program.  We wish to make sure that a company cannot]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[effectively restrict the users of a free program by obtaining a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[restrictive license from a patent holder.  Therefore, we insist that]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[any patent license obtained for a version of the library must be]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[consistent with the full freedom of use specified in this license.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  Most GNU software, including some libraries, is covered by the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[ordinary GNU General Public License.  This license, the GNU Lesser]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[General Public License, applies to certain designated libraries, and]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[is quite different from the ordinary General Public License.  We use]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[this license for certain libraries in order to permit linking those]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[libraries into non-free programs.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  When a program is linked with a library, whether statically or using]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[a shared library, the combination of the two is legally speaking a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[combined work, a derivative of the original library.  The ordinary]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[General Public License therefore permits such linking only if the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[entire combination fits its criteria of freedom.  The Lesser General]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Public License permits more lax criteria for linking other code with]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the library.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  We call this license the "Lesser" General Public License because it]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[does Less to protect the user's freedom than the ordinary General]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Public License.  It also provides other free software developers Less]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[of an advantage over competing non-free programs.  These disadvantages]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[are the reason we use the ordinary General Public License for many]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[libraries.  However, the Lesser license provides advantages in certain]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[special circumstances.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  For example, on rare occasions, there may be a special need to]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[encourage the widest possible use of a certain library, so that it becomes]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[a de-facto standard.  To achieve this, non-free programs must be]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[allowed to use the library.  A more frequent case is that a free]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[library does the same job as widely used non-free libraries.  In this]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[case, there is little to gain by limiting the free library to free]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[software only, so we use the Lesser General Public License.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  In other cases, permission to use a particular library in non-free]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[programs enables a greater number of people to use a large body of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[free software.  For example, permission to use the GNU C Library in]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[non-free programs enables many more people to use the whole GNU]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[operating system, as well as its variant, the GNU/Linux operating]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[system.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  Although the Lesser General Public License is Less protective of the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[users' freedom, it does ensure that the user of a program that is]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[linked with the Library has the freedom and the wherewithal to run]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[that program using a modified version of the Library.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  The precise terms and conditions for copying, distribution and]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[modification follow.  Pay close attention to the difference between a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[work based on the library and a "work that uses the library".  The]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[former contains code derived from the library, whereas the latter must]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[be combined with the library in order to run.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<gnulessergeneralpubliclicense><![CDATA[  GNU LESSER GENERAL PUBLIC LICENSE]]></gnulessergeneralpubliclicense>
+	</node>
+	<node>
+		<undefined0><![CDATA[   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  0. This License Agreement applies to any software library or other]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[program which contains a notice placed by the copyright holder or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[other authorized party saying it may be distributed under the terms of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[this Lesser General Public License (also called "this License").]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Each licensee is addressed as "you".]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  A "library" means a collection of software functions and/or data]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[prepared so as to be conveniently linked with application programs]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[(which use some of those functions and data) to form executables.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  The "Library", below, refers to any such software library or work]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[which has been distributed under these terms.  A "work based on the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Library" means either the Library or any derivative work under]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[copyright law: that is to say, a work containing the Library or a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[portion of it, either verbatim or with modifications and/or translated]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[straightforwardly into another language.  (Hereinafter, translation is]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[included without limitation in the term "modification".)]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Source code for a work means the preferred form of the work for]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[making modifications to it.  For a library, complete source code means]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[all the source code for all modules it contains, plus any associated]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[interface definition files, plus the scripts used to control compilation]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[and installation of the library.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  Activities other than copying, distribution and modification are not]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[covered by this License; they are outside its scope.  The act of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[running a program using the Library is not restricted, and output from]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[such a program is covered only if its contents constitute a work based]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[on the Library (independent of the use of the Library in a tool for]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[writing it).  Whether that is true depends on what the Library does]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[and what the program that uses the Library does.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  1. You may copy and distribute verbatim copies of the Library's]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[complete source code as you receive it, in any medium, provided that]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[you conspicuously and appropriately publish on each copy an]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[appropriate copyright notice and disclaimer of warranty; keep intact]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[all the notices that refer to this License and to the absence of any]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[warranty; and distribute a copy of this License along with the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Library.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  You may charge a fee for the physical act of transferring a copy,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[and you may at your option offer warranty protection in exchange for a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[fee.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  2. You may modify your copy or copies of the Library or any portion]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[of it, thus forming a work based on the Library, and copy and]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[distribute such modifications or work under the terms of Section 1]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[above, provided that you also meet all of these conditions:]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    a) The modified work must itself be a software library.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    b) You must cause the files modified to carry prominent notices]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    stating that you changed the files and the date of any change.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    c) You must cause the whole of the work to be licensed at no]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    charge to all third parties under the terms of this License.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    d) If a facility in the modified Library refers to a function or a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    table of data to be supplied by an application program that uses]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    the facility, other than as an argument passed when the facility]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    is invoked, then you must make a good faith effort to ensure that,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    in the event an application does not supply such function or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    table, the facility still operates, and performs whatever part of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    its purpose remains meaningful.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    (For example, a function in a library to compute square roots has]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    a purpose that is entirely well-defined independent of the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    application.  Therefore, Subsection 2d requires that any]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    application-supplied function or table used by this function must]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    be optional: if the application does not supply it, the square]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    root function must still compute square roots.)]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[These requirements apply to the modified work as a whole.  If]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[identifiable sections of that work are not derived from the Library,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[and can be reasonably considered independent and separate works in]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[themselves, then this License, and its terms, do not apply to those]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[sections when you distribute them as separate works.  But when you]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[distribute the same sections as part of a whole which is a work based]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[on the Library, the distribution of the whole must be on the terms of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[this License, whose permissions for other licensees extend to the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[entire whole, and thus to each and every part regardless of who wrote]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[it.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Thus, it is not the intent of this section to claim rights or contest]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[your rights to work written entirely by you; rather, the intent is to]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[exercise the right to control the distribution of derivative or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[collective works based on the Library.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[In addition, mere aggregation of another work not based on the Library]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[with the Library (or with a work based on the Library) on a volume of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[a storage or distribution medium does not bring the other work under]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the scope of this License.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  3. You may opt to apply the terms of the ordinary GNU General Public]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[License instead of this License to a given copy of the Library.  To do]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[this, you must alter all the notices that refer to this License, so]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[that they refer to the ordinary GNU General Public License, version 2,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[instead of to this License.  (If a newer version than version 2 of the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[ordinary GNU General Public License has appeared, then you can specify]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[that version instead if you wish.)  Do not make any other change in]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[these notices.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  Once this change is made in a given copy, it is irreversible for]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[that copy, so the ordinary GNU General Public License applies to all]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[subsequent copies and derivative works made from that copy.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  This option is useful when you wish to copy part of the code of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the Library into a program that is not a library.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  4. You may copy and distribute the Library (or a portion or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[derivative of it, under Section 2) in object code or executable form]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[under the terms of Sections 1 and 2 above provided that you accompany]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[it with the complete corresponding machine-readable source code, which]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[must be distributed under the terms of Sections 1 and 2 above on a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[medium customarily used for software interchange.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  If distribution of object code is made by offering access to copy]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[from a designated place, then offering equivalent access to copy the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[source code from the same place satisfies the requirement to]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[distribute the source code, even though third parties are not]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[compelled to copy the source along with the object code.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  5. A program that contains no derivative of any portion of the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Library, but is designed to work with the Library by being compiled or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[linked with it, is called a "work that uses the Library".  Such a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[work, in isolation, is not a derivative work of the Library, and]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[therefore falls outside the scope of this License.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  However, linking a "work that uses the Library" with the Library]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[creates an executable that is a derivative of the Library (because it]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[contains portions of the Library), rather than a "work that uses the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[library".  The executable is therefore covered by this License.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Section 6 states terms for distribution of such executables.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  When a "work that uses the Library" uses material from a header file]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[that is part of the Library, the object code for the work may be a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[derivative work of the Library even though the source code is not.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Whether this is true is especially significant if the work can be]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[linked without the Library, or if the work is itself a library.  The]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[threshold for this to be true is not precisely defined by law.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  If such an object file uses only numerical parameters, data]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[structure layouts and accessors, and small macros and small inline]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[functions (ten lines or less in length), then the use of the object]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[file is unrestricted, regardless of whether it is legally a derivative]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[work.  (Executables containing this object code plus portions of the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Library will still fall under Section 6.)]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  Otherwise, if the work is a derivative of the Library, you may]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[distribute the object code for the work under the terms of Section 6.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Any executables containing that work also fall under Section 6,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[whether or not they are linked directly with the Library itself.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  6. As an exception to the Sections above, you may also combine or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[link a "work that uses the Library" with the Library to produce a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[work containing portions of the Library, and distribute that work]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[under terms of your choice, provided that the terms permit]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[modification of the work for the customer's own use and reverse]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[engineering for debugging such modifications.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  You must give prominent notice with each copy of the work that the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Library is used in it and that the Library and its use are covered by]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[this License.  You must supply a copy of this License.  If the work]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[during execution displays copyright notices, you must include the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[copyright notice for the Library among them, as well as a reference]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[directing the user to the copy of this License.  Also, you must do one]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[of these things:]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    a) Accompany the work with the complete corresponding]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    machine-readable source code for the Library including whatever]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    changes were used in the work (which must be distributed under]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    Sections 1 and 2 above); and, if the work is an executable linked]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    with the Library, with the complete machine-readable "work that]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    uses the Library", as object code and/or source code, so that the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    user can modify the Library and then relink to produce a modified]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    executable containing the modified Library.  (It is understood]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    that the user who changes the contents of definitions files in the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    Library will not necessarily be able to recompile the application]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    to use the modified definitions.)]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    b) Use a suitable shared library mechanism for linking with the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    Library.  A suitable mechanism is one that (1) uses at run time a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    copy of the library already present on the user's computer system,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    rather than copying library functions into the executable, and (2)]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    will operate properly with a modified version of the library, if]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    the user installs one, as long as the modified version is]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    interface-compatible with the version that the work was made with.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    c) Accompany the work with a written offer, valid for at]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    least three years, to give the same user the materials]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    specified in Subsection 6a, above, for a charge no more]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    than the cost of performing this distribution.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    d) If distribution of the work is made by offering access to copy]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    from a designated place, offer equivalent access to copy the above]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    specified materials from the same place.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    e) Verify that the user has already received a copy of these]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    materials or that you have already sent this user a copy.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  For an executable, the required form of the "work that uses the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Library" must include any data and utility programs needed for]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[reproducing the executable from it.  However, as a special exception,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the materials to be distributed need not include anything that is]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[normally distributed (in either source or binary form) with the major]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[components (compiler, kernel, and so on) of the operating system on]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[which the executable runs, unless that component itself accompanies]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the executable.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  It may happen that this requirement contradicts the license]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[restrictions of other proprietary libraries that do not normally]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[accompany the operating system.  Such a contradiction means you cannot]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[use both them and the Library together in an executable that you]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[distribute.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  7. You may place library facilities that are a work based on the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Library side-by-side in a single library together with other library]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[facilities not covered by this License, and distribute such a combined]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[library, provided that the separate distribution of the work based on]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the Library and of the other library facilities is otherwise]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[permitted, and provided that you do these two things:]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    a) Accompany the combined library with a copy of the same work]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    based on the Library, uncombined with any other library]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    facilities.  This must be distributed under the terms of the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    Sections above.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    b) Give prominent notice with the combined library of the fact]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    that part of it is a work based on the Library, and explaining]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    where to find the accompanying uncombined form of the same work.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  8. You may not copy, modify, sublicense, link with, or distribute]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the Library except as expressly provided under this License.  Any]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[attempt otherwise to copy, modify, sublicense, link with, or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[distribute the Library is void, and will automatically terminate your]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[rights under this License.  However, parties who have received copies,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[or rights, from you under this License will not have their licenses]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[terminated so long as such parties remain in full compliance.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  9. You are not required to accept this License, since you have not]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[signed it.  However, nothing else grants you permission to modify or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[distribute the Library or its derivative works.  These actions are]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[prohibited by law if you do not accept this License.  Therefore, by]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[modifying or distributing the Library (or any work based on the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Library), you indicate your acceptance of this License to do so, and]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[all its terms and conditions for copying, distributing or modifying]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the Library or works based on it.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  10. Each time you redistribute the Library (or any work based on the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Library), the recipient automatically receives a license from the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[original licensor to copy, distribute, link with or modify the Library]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[subject to these terms and conditions.  You may not impose any further]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[restrictions on the recipients' exercise of the rights granted herein.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[You are not responsible for enforcing compliance by third parties with]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[this License.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  11. If, as a consequence of a court judgment or allegation of patent]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[infringement or for any other reason (not limited to patent issues),]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[conditions are imposed on you (whether by court order, agreement or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[otherwise) that contradict the conditions of this License, they do not]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[excuse you from the conditions of this License.  If you cannot]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[distribute so as to satisfy simultaneously your obligations under this]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[License and any other pertinent obligations, then as a consequence you]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[may not distribute the Library at all.  For example, if a patent]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[license would not permit royalty-free redistribution of the Library by]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[all those who receive copies directly or indirectly through you, then]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the only way you could satisfy both it and this License would be to]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[refrain entirely from distribution of the Library.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[If any portion of this section is held invalid or unenforceable under any]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[particular circumstance, the balance of the section is intended to apply,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[and the section as a whole is intended to apply in other circumstances.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[It is not the purpose of this section to induce you to infringe any]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[patents or other property right claims or to contest validity of any]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[such claims; this section has the sole purpose of protecting the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[integrity of the free software distribution system which is]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[implemented by public license practices.  Many people have made]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[generous contributions to the wide range of software distributed]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[through that system in reliance on consistent application of that]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[system; it is up to the author/donor to decide if he or she is willing]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[to distribute software through any other system and a licensee cannot]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[impose that choice.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[This section is intended to make thoroughly clear what is believed to]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[be a consequence of the rest of this License.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  12. If the distribution and/or use of the Library is restricted in]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[certain countries either by patents or by copyrighted interfaces, the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[original copyright holder who places the Library under this License may add]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[an explicit geographical distribution limitation excluding those countries,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[so that distribution is permitted only in or among countries not thus]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[excluded.  In such case, this License incorporates the limitation as if]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[written in the body of this License.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  13. The Free Software Foundation may publish revised and/or new]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[versions of the Lesser General Public License from time to time.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Such new versions will be similar in spirit to the present version,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[but may differ in detail to address new problems or concerns.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Each version is given a distinguishing version number.  If the Library]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[specifies a version number of this License which applies to it and]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[any later version, you have the option of following the terms and]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[conditions either of that version or of any later version published by]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the Free Software Foundation.  If the Library does not specify a]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[license version number, you may choose any version ever published by]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[the Free Software Foundation.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  14. If you wish to incorporate parts of the Library into other free]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[programs whose distribution conditions are incompatible with these,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[write to the author to ask for permission.  For software which is]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[copyrighted by the Free Software Foundation, write to the Free]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Software Foundation; we sometimes make exceptions for this.  Our]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[decision will be guided by the two goals of preserving the free status]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[of all derivatives of our free software and of promoting the sharing]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[and reuse of software generally.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<gnulessergeneralpubliclicense><![CDATA[]]></gnulessergeneralpubliclicense>
+	</node>
+	<node>
+		<undefined0><![CDATA[  15. BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[WARRANTY FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[OTHER PARTIES PROVIDE THE LIBRARY "AS IS" WITHOUT WARRANTY OF ANY]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[LIBRARY IS WITH YOU.  SHOULD THE LIBRARY PROVE DEFECTIVE, YOU ASSUME]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  16. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[AND/OR REDISTRIBUTE THE LIBRARY AS PERMITTED ABOVE, BE LIABLE TO YOU]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[LIBRARY (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[FAILURE OF THE LIBRARY TO OPERATE WITH ANY OTHER SOFTWARE), EVEN IF]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[DAMAGES.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<gnulessergeneralpubliclicense><![CDATA[     END OF TERMS AND CONDITIONS]]></gnulessergeneralpubliclicense>
+	</node>
+	<node>
+		<undefined0><![CDATA[           How to Apply These Terms to Your New Libraries]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  If you develop a new library, and you want it to be of the greatest]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[possible use to the public, we recommend making it free software that]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[everyone can redistribute and change.  You can do so by permitting]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[redistribution under these terms (or, alternatively, under the terms of the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[ordinary General Public License).]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  To apply these terms, attach the following notices to the library.  It is]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[safest to attach them to the start of each source file to most effectively]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[convey the exclusion of warranty; and each file should have at least the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[copyright line and a pointer to where the full notice is found.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    <one line to give the library's name and a brief idea of what it does.>]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    Copyright (C) <year>  <name of author>]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    This library is free software; you can redistribute it and/or]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    modify it under the terms of the GNU Lesser General Public]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    License as published by the Free Software Foundation; either]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    version 2.1 of the License, or (at your option) any later version.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    This library is distributed in the hope that it will be useful,]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    but WITHOUT ANY WARRANTY; without even the implied warranty of]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    Lesser General Public License for more details.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    You should have received a copy of the GNU Lesser General Public]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    License along with this library; if not, write to the Free Software]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[Also add information on how to contact you by electronic and paper mail.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[You should also get your employer (if you work as a programmer) or your]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[school, if any, to sign a "copyright disclaimer" for the library, if]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[necessary.  Here is a sample; alter the names:]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  Yoyodyne, Inc., hereby disclaims all copyright interest in the]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  library `Frob' (a library for tweaking knobs) written by James Random Hacker.]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  <signature of Ty Coon>, 1 April 1990]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[  Ty Coon, President of Vice]]></undefined0>
+	</node>
+	<node>
+		<undefined0><![CDATA[That's all there is to it!]]></undefined0>
+	</node>
+</data>

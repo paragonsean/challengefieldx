@@ -45,10 +45,11 @@ function learn_press_get_course_review( $course_id, $paged = 1, $per_page = LP_A
 			'reviews'  => array(),
 			'paged'    => $paged,
 			'total'    => 0,
-			'per_page' => $per_page
+			'per_page' => $per_page,
 		);
 
-		$query = $wpdb->prepare( "
+		$query = $wpdb->prepare(
+			"
 	        SELECT SQL_CALC_FOUND_ROWS u.user_email, u.display_name, c.comment_ID as comment_id, cm1.meta_value as title, c.comment_content as content, cm2.meta_value as rate
 	        FROM {$wpdb->posts} p
 	        INNER JOIN {$wpdb->comments} c ON p.ID = c.comment_post_ID
@@ -58,7 +59,15 @@ function learn_press_get_course_review( $course_id, $paged = 1, $per_page = LP_A
 	        WHERE p.ID = %d AND c.comment_type = %s AND c.comment_approved = %d
 	        ORDER BY c.comment_date DESC
 	        LIMIT %d, %d
-	    ", '_lpr_review_title', '_lpr_rating', $course_id, 'review', 1, $start, $per_page );
+	    ",
+			'_lpr_review_title',
+			'_lpr_rating',
+			$course_id,
+			'review',
+			1,
+			$start,
+			$per_page
+		);
 
 		$course_review = $wpdb->get_results( $query );
 
@@ -66,6 +75,7 @@ function learn_press_get_course_review( $course_id, $paged = 1, $per_page = LP_A
 			$ratings            = _learn_press_get_ratings( $course_id );
 			$results['reviews'] = $course_review;
 			$results['total']   = $ratings[ $course_id ]['total'];
+			$results['pages']   = ceil( $results['total'] / $per_page );
 			if ( $results['total'] <= $start + $per_page ) {
 				$results['finish'] = true;
 			}
@@ -78,20 +88,16 @@ function learn_press_get_course_review( $course_id, $paged = 1, $per_page = LP_A
 }
 
 function _learn_press_get_ratings( $course_id ) {
+	//  $ratings = [
+	//      $course_id => leanr_press_get_ratings_result( $course_id )
+	//  ];
+	$ratings = [
+		$course_id => LP_Addon_Course_Review_Preload::$addon->get_rating_of_course( $course_id ),
+	];
 
-	static $course_rates = array();
-	if ( ! is_array( $course_id ) ) {
-		$ids = array( $course_id );
-	} else {
-		$ids = $course_id;
-	}
-	foreach ( $ids as $cid ) {
-		if ( ! isset( $course_rates[ $cid ] ) ) {
-			$course_rates[ $cid ] = leanr_press_get_ratings_result( $cid );
-		}
-	}
+	//error_log( print_r( $ratings, true ) );
 
-	return $course_rates;
+	return $ratings;
 }
 
 
@@ -109,22 +115,9 @@ function learn_press_get_course_rate( $course_id, $field = 'rated' ) {
 }
 
 function learn_press_get_course_rate_total( $course_id, $field = 'total' ) {
-	/*global $wpdb;
-	$query = $wpdb->prepare( "
-        SELECT COUNT(*)
-        FROM {$wpdb->posts} p
-        INNER JOIN {$wpdb->comments} c ON p.ID = c.comment_post_ID
-        INNER JOIN {$wpdb->users} u ON u.ID = c.user_id
-        INNER JOIN {$wpdb->commentmeta} cm1 ON cm1.comment_id = c.comment_ID AND cm1.meta_key=%s
-        INNER JOIN {$wpdb->commentmeta} cm2 ON cm2.comment_id = c.comment_ID AND cm2.meta_key=%s
-        WHERE p.ID=%d AND c.comment_type=%s and c.comment_approved = %d
-        ORDER BY c.comment_date DESC",
-		'_lpr_review_title', '_lpr_rating', $course_id, 'review', 1
-	);
-	$total = $wpdb->get_var( $query );*/
-
 	$ratings = _learn_press_get_ratings( $course_id );
-	$total   = array_key_exists( $field, $ratings[ $course_id ] ) ? $ratings[ $course_id ][ $field ] : $ratings;
+
+	$total = $ratings[ $course_id ]['total'] ?? 0;
 
 	return apply_filters( 'learn_press_get_course_rate_total', $total );
 }
@@ -164,14 +157,19 @@ function learn_press_get_user_rate( $course_id = null, $user_id = null, $force =
 	// Get in cache if it is already get
 	if ( ! ( $comment = wp_cache_get( 'user-' . $user_id . '/' . $course_id, 'lp-user-rate' ) ) || $force ) {
 		global $wpdb;
-		$query = $wpdb->prepare( "
+		$query = $wpdb->prepare(
+			"
 	        SELECT *
 	        FROM {$wpdb->posts} p
 	        INNER JOIN {$wpdb->comments} c ON c.comment_post_ID = p.ID
 	        WHERE c.comment_post_ID = %d
 	        AND c.user_id = %d
 	        AND c.comment_type = %s
-	    ", $course_id, $user_id, 'review' );
+	    	",
+			$course_id,
+			$user_id,
+			'review'
+		);
 
 		$comment = $wpdb->get_row( $query );
 
@@ -202,7 +200,7 @@ function learn_press_add_course_review( $args = array() ) {
 			'rate'      => '',
 			'user_id'   => 0,
 			'course_id' => 0,
-			'force' => 0,
+			'force'     => 0,
 		)
 	);
 	$user_id     = $args['user_id'];
@@ -222,7 +220,7 @@ function learn_press_add_course_review( $args = array() ) {
 				'comment_parent'       => 0,
 				'user_id'              => $user->ID,
 				'comment_approved'     => 1,
-				'comment_type'         => 'review' // let filter to not display it as comments
+				'comment_type'         => 'review', // let filter to not display it as comments
 			)
 		);
 	}
@@ -231,9 +229,16 @@ function learn_press_add_course_review( $args = array() ) {
 		add_comment_meta( $comment_id, '_lpr_review_title', $args['title'] );
 	}
 
+	// Clear cache
+	$lp_course_review_cache = new LP_Course_Review_Cache( true );
+	$lp_course_review_cache->clean_rating( $course_id );
+
 	return $comment_id;
 }
 
+/**
+ * @deprecated 4.0.6
+ */
 function learn_press_course_review_template( $name, $args = null ) {
 	learn_press_get_template( $name, $args, learn_press_template_path() . '/addons/course-review/', LP_ADDON_COURSE_REVIEW_TMPL );
 }
@@ -243,7 +248,7 @@ function learn_press_course_review_template( $name, $args = null ) {
  * into cache to reduce queries and time rather than load separate course
  * in loop
  */
-add_filter( 'the_posts', 'learn_press_init_courses_review' );
+//add_filter( 'the_posts', 'learn_press_init_courses_review' );
 function learn_press_init_courses_review( $posts ) {
 	if ( $posts ) {
 		$pIds = array();
@@ -262,15 +267,20 @@ function learn_press_init_courses_review( $posts ) {
  * @param int  $course_id
  * @param bool $get_items
  *
- * @return array
+ * @return array|string
  */
 function leanr_press_get_ratings_result( $course_id = 0, $get_items = false ) {
+	if ( get_post_type( $course_id ) !== LP_COURSE_CPT ) {
+		return '';
+	}
+
 	$result = wp_cache_get( 'course-' . $course_id, 'lp-course-ratings' );
 
 	if ( $result === false ) {
 		global $wpdb;
 
-		$query = $wpdb->prepare( "
+		$query = $wpdb->prepare(
+			"
 				SELECT
 					cm.meta_value `rate`, COUNT(1) `count`
 				FROM
@@ -283,7 +293,11 @@ function leanr_press_get_ratings_result( $course_id = 0, $get_items = false ) {
 						AND c.user_id > 0
 						AND c.comment_post_ID = %d
 				GROUP BY `cm`.`meta_value`
-			", '_lpr_rating', 'review', $course_id );
+			",
+			'_lpr_rating',
+			'review',
+			$course_id
+		);
 		$rows  = $wpdb->get_results( $query );
 
 		$count = 0;
@@ -295,7 +309,7 @@ function leanr_press_get_ratings_result( $course_id = 0, $get_items = false ) {
 			$items[ $i ] = array(
 				'rated'   => $i,
 				'total'   => 0,
-				'percent' => 0
+				'percent' => 0,
 			);
 		}
 
@@ -306,15 +320,15 @@ function leanr_press_get_ratings_result( $course_id = 0, $get_items = false ) {
 			$one_hundred = 0;
 
 			foreach ( $rows as $row ) {
-				$rate                += $row->rate * $row->count;
+				$rate               += $row->rate * $row->count;
 				$percent             = $row->count / $count * 100;
 				$items[ $row->rate ] = array(
 					'rated'         => $row->rate,
 					'total'         => $row->count,
 					'percent'       => floor( $percent ),
-					'percent_float' => $percent
+					'percent_float' => $percent,
 				);
-				$one_hundred         += $items[ $row->rate ]['percent'];
+				$one_hundred        += $items[ $row->rate ]['percent'];
 				$round[ $row->rate ] = $percent - floor( $percent );
 			}
 
@@ -340,7 +354,7 @@ function leanr_press_get_ratings_result( $course_id = 0, $get_items = false ) {
 			'course_id' => $course_id,
 			'total'     => $count,
 			'rated'     => $avg,
-			'items'     => $items
+			'items'     => $items,
 		);
 
 		wp_cache_set( 'course-' . $course_id, $result, 'lp-course-ratings', 6 * HOUR_IN_SECONDS );
@@ -357,48 +371,38 @@ function learn_press_course_review_loop_stars() {
 	$course_rate_res = learn_press_get_course_rate( get_the_ID(), false );
 	?>
 
-    <div class="course-review">
+	<div class="course-review">
 		<?php learn_press_course_review_template( 'rating-stars.php', array( 'rated' => $course_rate_res['rated'] ) ); ?>
-       <div class="clearfix">
+	   <div class="clearfix">
 
-       </div>
+	   </div>
    </div>
 
 	<?php
 }
 
-add_action( 'learn-press/after-courses-loop-item', 'learn_press_course_review_loop_stars' );
+//add_action( 'learn-press/after-courses-loop-item', 'learn_press_course_review_loop_stars' );
 
 function learn_press_course_meta_primary_review() {
-
-	/**
-	 * Template for displaying course instructor in primary-meta section.
-	 *
-	 * @version 4.0.0
-	 * @author  ThimPress
-	 * @package LearnPress/Templates
-	 */
-
-	defined( 'ABSPATH' ) or die;
-
-	/**
-	 * @var LP_Course $course
-	 */
-	$course = LP_Global::course();
 	if ( LP_COURSE_CPT !== get_post_type() ) {
 		return;
 	}
 
 	$course_rate_res = learn_press_get_course_rate( get_the_ID(), false );
 	?>
-    <div class="meta-item meta-item-review">
-        <div class="meta-item__value">
-            <label><?php esc_html_e( 'Review', 'learnpress' ); ?></label>
-            <div>
-	            <?php learn_press_course_review_template( 'rating-stars.php', array( 'rated' => $course_rate_res['rated'] ) ); ?>
-            </div>
-        </div>
-    </div>
+	<div class="meta-item meta-item-review">
+		<div class="meta-item__value">
+			<label><?php esc_html_e( 'Review', 'learnpress-course-review' ); ?></label>
+			<div>
+				<?php
+				LP_Addon_Course_Review_Preload::$addon->get_template(
+					'rating-stars.php',
+					array( 'rated' => $course_rate_res['rated'] )
+				);
+				?>
+			</div>
+		</div>
+	</div>
 	<?php
 }
 

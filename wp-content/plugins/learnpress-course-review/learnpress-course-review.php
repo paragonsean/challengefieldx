@@ -4,14 +4,14 @@
  * Plugin URI: http://thimpress.com/learnpress
  * Description: Adding review for course.
  * Author: ThimPress
- * Version: 4.0.5
+ * Version: 4.0.6
  * Author URI: http://thimpress.com
  * Tags: learnpress
  * Requires at least: 5.8
  * Tested up to: 6.1.1
  * Text Domain: learnpress-course-review
  * Domain Path: /languages/
- * Require_LP_Version: 4.2.0
+ * Require_LP_Version: 4.2.2
  *
  * @package learnpress-course-review
  */
@@ -29,7 +29,7 @@ class LP_Addon_Course_Review_Preload {
 	 */
 	public static $addon_info = array();
 	/**
-	 * @var LP_Addon_Assignment $addon
+	 * @var LP_Addon_Course_Review $addon
 	 */
 	public static $addon;
 
