@@ -1,0 +1,17 @@
+{
+    "/admin/js/start.js": "/admin/js/start.js",
+    "/portal/js/app.js": "/portal/js/app.js",
+    "/admin/js/firebase_notify.js": "/admin/js/firebase_notify.js",
+    "/admin/js/global_admin.js": "/admin/js/global_admin.js",
+    "/portal/js/login_helper.js": "/portal/js/login_helper.js",
+    "/admin/css/alpha-admin.css": "/admin/css/alpha-admin.css",
+    "/portal/css/app.css": "/portal/css/app.css",
+    "/admin/css/all_public.css": "/admin/css/all_public.css",
+    "/images/.DS_Store": "/images/.DS_Store",
+    "/images/fluent-crm-icon.png": "/images/fluent-crm-icon.png",
+    "/images/fluent-support-color-logo.png": "/images/fluent-support-color-logo.png",
+    "/images/fluent-support-logo.png": "/images/fluent-support-logo.png",
+    "/images/fluentcrm-logo.svg": "/images/fluentcrm-logo.svg",
+    "/images/logo.svg": "/images/logo.svg",
+    "/images/sidebar-icon.svg": "/images/sidebar-icon.svg"
+}

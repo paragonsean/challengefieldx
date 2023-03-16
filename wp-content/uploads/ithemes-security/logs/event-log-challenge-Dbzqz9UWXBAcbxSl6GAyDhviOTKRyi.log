@@ -1,0 +1,2 @@
+parent_id,module,code,data,type,timestamp,init_timestamp,memory_current,memory_peak,user_id,remote_ip
+0,user_logging,user-logged-in::4,"a:1:{s:7:""user_id"";i:4;}",notice,"2023-03-06 23:02:30","2023-03-06 23:02:30",20243312,23923264,https://www.challenge.fieldx.org/wp-login.php,1,4,216.126.35.192

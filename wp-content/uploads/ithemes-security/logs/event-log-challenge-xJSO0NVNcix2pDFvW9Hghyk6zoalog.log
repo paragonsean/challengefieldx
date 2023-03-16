@@ -1,0 +1,2 @@
+parent_id,module,code,data,type,timestamp,init_timestamp,memory_current,memory_peak,user_id,remote_ip
+0,version_management,"update::plugin,ithemes-security-pro/ithemes-security-pro.php,7.3.0,manual","a:1:{s:7:""context"";a:4:{s:6:""action"";s:6:""update"";s:4:""type"";s:6:""plugin"";s:4:""bulk"";b:1;s:7:""plugins"";a:1:{i:0;s:45:""ithemes-security-pro/ithemes-security-pro.php"";}}}",notice,"2023-03-06 23:06:14","2023-03-06 23:06:13",22476184,26570600,https://www.challenge.fieldx.org/wp-admin/admin-ajax.php,1,4,216.126.35.192
