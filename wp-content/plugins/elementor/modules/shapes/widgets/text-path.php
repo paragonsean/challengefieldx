@@ -669,7 +669,6 @@ class TextPath extends Widget_Base {
 			'class' => 'e-text-path',
 			'data-text' => esc_attr( $settings['text'] ),
 			'data-url' => esc_url( $path_url ),
-			'data-link-url' => esc_url( $settings['link']['url'] ?? '' ),
 		] );
 
 		// Add hover animation.

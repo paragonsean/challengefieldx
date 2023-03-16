@@ -16,3 +16,32 @@ function pmpro_checkout_redirect(){
         exit;
     }
 }
+
+add_shortcode('Post-shortcode', 'wp_get_post_by_slug');
+
+
+function wp_get_post_by_slug(){
+             if( have_rows('testimonial_group') ):
+     while( have_rows('testimonial_group') ): the_row(); 
+
+        // Get sub field values.
+        $username = get_sub_field('user_name');
+        $description = get_sub_field('testimonial');
+        $profile_photo = get_sub_field('profile_photo');
+        
+        $trimmed_content = wp_trim_words($description, 40);
+        echo '<div class="testimonial_container">
+                <div class="testimonial_wrapper">
+                    <img class="testimonial_img" decoding="async" width="113" height="113" src='.$profile_photo.' loading="lazy">
+                    <div>
+                        <h4>'.$username.'</h4>
+                        <i aria-hidden="true" class="far fa-play-circle"></i>
+                    </div>
+                </div>
+                <div class="testimonial_content">'.$trimmed_content.'</div>
+               </div>';
+       
+     endwhile;
+        endif;
+        
+}

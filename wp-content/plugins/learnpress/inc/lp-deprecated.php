@@ -364,10 +364,7 @@ function learn_press_get_subtabs_course() {
 
 // -------------------------------
 // Validation Data Settings Page Before Save
-/**
- * @deprecated 4.2.2.2
- */
-/*add_filter( 'learn_press_update_option_value', 'learn_press_validation_data_before_save', 10, 2 );
+add_filter( 'learn_press_update_option_value', 'learn_press_validation_data_before_save', 10, 2 );
 
 function learn_press_validation_data_before_save( $value = '', $name = '' ) {
 	if ( $name === 'learn_press_profile_endpoints' ) {
@@ -378,7 +375,7 @@ function learn_press_validation_data_before_save( $value = '', $name = '' ) {
 	}
 
 	return $value;
-}*/
+}
 
 
 // Show filters for students list

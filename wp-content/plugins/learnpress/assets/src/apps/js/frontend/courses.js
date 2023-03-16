@@ -6,9 +6,8 @@ const jsHandlePageCourses = () => {
 		return;
 	}
 
-	const urlQueryString = window.location.search;
-	const urlSearchParams = new URLSearchParams( urlQueryString );
-	let filterCourses = {};
+	const urlCurrent = document.location.href;
+	let filterCourses = JSON.parse( window.localStorage.getItem( 'lp_filter_courses' ) ) || {};
 	let skeleton;
 	let skeletonClone;
 	let isLoading = false;
@@ -19,15 +18,17 @@ const jsHandlePageCourses = () => {
 	let dataHtml;
 	let paginationHtml;
 
-	const urlParams = {};
-	for ( const [ key, val ] of urlSearchParams.entries() ) {
-		urlParams[ key ] = val;
-	}
-	window.localStorage.setItem( 'lp_filter_courses', JSON.stringify( urlParams ) );
-
 	if ( ! lpGlobalSettings.lpArchiveLoadAjax ) {
 		console.log( 'Option load courses ajax is disabled' );
 		return;
+	}
+
+	if ( lpGlobalSettings.is_course_archive ) {
+		const queryString = window.location.search;
+
+		if ( ! queryString.length && urlCurrent.search( 'page' ) === -1 ) {
+			filterCourses = {};
+		}
 	}
 
 	const lpArchiveAddQueryArgs = ( endpoint, args ) => {
@@ -99,7 +100,7 @@ const jsHandlePageCourses = () => {
 				dataHtml = response.data.content || '';
 				paginationHtml = response.data.pagination || '';
 
-				if ( ! skeletonClone && skeleton ) {
+				if ( ! skeletonClone ) {
 					skeletonClone = skeleton.cloneNode( true );
 				}
 
@@ -134,9 +135,7 @@ const jsHandlePageCourses = () => {
 			.finally( () => {
 				isLoading = false;
 				const btnSearchCourses = document.querySelector( 'form.search-courses button' );
-				if ( btnSearchCourses ) {
-					btnSearchCourses.classList.remove( 'loading' );
-				}
+				btnSearchCourses.classList.remove( 'loading' );
 
 				if ( ! firstLoad ) {
 				// Scroll to archive element
@@ -163,7 +162,7 @@ const jsHandlePageCourses = () => {
 
 	const lpArchiveSearchCourse = () => {
 		const searchForm = document.querySelectorAll( 'form.search-courses' );
-		filterCourses = JSON.parse( window.localStorage.getItem( 'lp_filter_courses' ) ) || {};
+		const filterCourses = JSON.parse( window.localStorage.getItem( 'lp_filter_courses' ) ) || {};
 
 		searchForm.forEach( ( s ) => {
 			const search = s.querySelector( 'input[name="c_search"]' );
@@ -221,6 +220,7 @@ const jsHandlePageCourses = () => {
 			// Scroll to archive element
 			elArchive.scrollIntoView( { behavior: 'smooth' } );
 
+			let filterCourses = {};
 			filterCourses = JSON.parse( window.localStorage.getItem( 'lp_filter_courses' ) ) || {};
 
 			const urlString = event.currentTarget.getAttribute( 'href' );

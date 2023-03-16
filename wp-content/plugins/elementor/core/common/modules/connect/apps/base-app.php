@@ -501,9 +501,7 @@ abstract class Base_App {
 			if ( 401 === $code ) {
 				$this->delete();
 
-				$should_retry = ! in_array( $this->auth_mode, [ 'xhr', 'cli' ], true );
-
-				if ( $should_retry ) {
+				if ( 'xhr' !== $this->auth_mode ) {
 					$this->action_authorize();
 				}
 			}
