@@ -45,3 +45,26 @@ function wp_get_post_by_slug(){
         endif;
         
 }
+
+$args = array(
+    'post_type' => 'lp_course',
+    'posts_per_page' => 5
+    // Several more arguments could go here. Last one without a comma.
+);
+
+// Query the posts:
+$obituary_query = new WP_Query($args);
+// echo '<pre>';
+// print_r($obituary_query );
+// echo '</pre>';
+// Loop through the obituaries:
+while ($obituary_query->have_posts()) : $obituary_query->the_post();
+   //  // Echo some markup
+   //  echo '<p>';
+   //  the_title();
+   // // echo get_post_meta($post->ID, 'birth_date', true); 
+   //  echo '</p>'; 
+endwhile;
+
+
+wp_reset_postdata();
