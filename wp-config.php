@@ -101,6 +101,8 @@ define( 'WP_DEBUG_DISPLAY', false );
 define( 'WP_DEBUG_LOG', true );
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISABLE_WP_CRON', true );
+define( 'WP_MEMORY_LIMIT', '256M' );
+set_time_limit(30000);
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
