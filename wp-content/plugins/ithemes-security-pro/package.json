@@ -17,7 +17,7 @@
     "@emotion/react": "^11.5.0",
     "@ithemes/ui": "^0.6.0",
     "@react-hook/debounce": "^3.0.0",
-    "@rjsf/core": "^2.5.1",
+    "@rjsf/core": "^3.2.1",
     "@wordpress/a11y": "^3.12.0",
     "@wordpress/api-fetch": "^6.9.0",
     "@wordpress/autop": "^3.12.0",
